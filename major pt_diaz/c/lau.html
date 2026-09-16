@@ -1,0 +1,136 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+* {
+    box-sizing: border-box;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+}
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+html {
+    font-family: "Lucinda Sans", sans-serif;
+}
+
+.header {
+    background-color: #9933cc;
+    color: #ffffff;
+    padding: 15px;
+}
+
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu li {
+    padding: 8px;
+    margin-bottom: 7px;
+    background-color: #33b5e5;
+    color: #ffffff;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12),
+                0 1px 2px rgba(0,0,0,0.24);
+}
+
+.menu li:hover {
+    background-color: #0099cc;
+}
+@media screen and (max-width: 1200px) {
+    .col-3 {
+        width: 100%;
+    }
+
+    .col-9 {
+        width: 100%;
+    }
+
+    .menu ul {
+        display: flex;
+        overflow-x: auto;
+        gap: 5px;
+    }
+
+    .menu li {
+        min-width: 100px;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        white-space: nowrap;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<div class="header">
+    <h1>Lautaro Martínez</h1>
+</div>
+
+<div class="row">
+
+    <div class="col-3 menu">
+        <ul>
+            <ul>
+        <a href="index.html"><li>Home</li></a>
+        <a href="Juan.html"><li>Juan Musso</li></a>
+        <a href="Gero.html"><li>Gerónimo rulli</li></a>
+		<a href="emil.html"><li>Emiliano Martínez</li></a>
+		<a href="Nico.html"><li>Nicolás Tagliafico</li></a>
+		<a href="Gon.html"><li>Gonzalo montiel</li></a>
+		<a href="Lisan.html"><li>Lisandro Martínez</li></a>
+		<a href="Cris.html"><li>Cristian Romero</li></a>
+		<a href="Otam.html"><li>Nicolás Otamendi</li></a>
+		<a href="Fac.html"><li>Facundo Medina</li></a>
+		<a href="Nah.html"><li>Nahuel Molina</li></a>
+		<a href="Marc.html"><li>Marcos Senesi</li></a>
+		<a href="Lea.html"><li>Leandro Paredes</li></a>
+		<a href="val.html"><li>Valentín Barco</li></a>
+		<a href="rod.html"><li>Rodrigo De Paul</li></a>
+		<a href="gio.html"><li>Giovani Lo Celso</li></a>
+		<a href="exeq.html"><li>Exequiel Palacios</li></a>
+		<a href="nicol.html"><li>Nicolás González</li></a>
+		<a href="enzo.html"><li>Enzo Fernández</li></a>
+		<a href="enzo.html"><li>Julián Alvarez</li></a>
+		<a href="leo.html"><li>Lionel Messi</li></a>
+		<a href="thia.html"><li>Thiago Almada</li></a>
+		<a href="giu.html"><li>Giuliano Simeone</li></a>
+		<a href="Paz.html"><li>Nico Paz</li></a>
+		<a href="lau.html"><li>Lautaro Martínez</li></a>
+</ul>
+        </ul>
+    </div>
+
+    <div class="col-9">
+        <h1>Lautaro Martínez </h1>
+		<div class="col-6">
+        <img src="i/lau.png" style="width: 100%; height: auto;">
+      </div>
+
+        <p> Lautaro Martínez is an Argentine professional footballer born on August 22, 1997. He plays as a striker and serves as captain for Inter Milan in Serie A, as well as representing the Argentina national team. He is widely known for his strong work rate, clinical finishing, and leadership.</p>  

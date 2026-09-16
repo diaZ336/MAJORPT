@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+* {
+    box-sizing: border-box;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+}
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+html {
+    font-family: "Lucinda Sans", sans-serif;
+}
+
+.header {
+    background-color: #9933cc;
+    color: #ffffff;
+    padding: 15px;
+}
+
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu li {
+    padding: 8px;
+    margin-bottom: 7px;
+    background-color: #33b5e5;
+    color: #ffffff;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12),
+                0 1px 2px rgba(0,0,0,0.24);
+}
+
+.menu li:hover {
+    background-color: #0099cc;
+}
+@media screen and (max-width: 1200px) {
+    .col-3 {
+        width: 100%;
+    }
+
+    .col-9 {
+        width: 100%;
+    }
+
+    .menu ul {
+        display: flex;
+        overflow-x: auto;
+        gap: 5px;
+    }
+
+    .menu li {
+        min-width: 100px;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        white-space: nowrap;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<div class="header">
+    <h1>FULL ARGENTINA SQAUD</h1>
+</div>
+
+<div class="row">
+
+    <div class="col-3 menu">
+        <ul>
+		    <ul>
+            <a href="index.html"><li>Home</li></a>
+        <a href="c/Juan.html"><li>Juan Musso</li></a>
+		 <a href="c/Gero.html"><li>Gerónimo Rulli</li></a>
+		<a href="c/emil.html"><li>Emiliano Martínez</li></a>
+		<a href="c/Nico.html"><li>Nicolás Tagliafico</li></a>
+		<a href="c/Gon.html"><li>Gonzalo montiel</li></a>
+		<a href="c/Lisan.html"><li>Lisandro Martínez</li></a>
+		<a href="c/Cris.html"><li>Cristian Romero</li></a>
+		<a href="c/Otam.html"><li>Nicolás Otamendi</li></a>
+		<a href="c/Fac.html"><li>Facundo Medina</li></a>
+		<a href="c/Nah.html"><li>Nahuel Molina</li></a>
+		<a href="c/Marc.html"><li>Marcos Senesi</li></a>
+		<a href="c/Lea.html"><li>Leandro Paredes</li></a>
+		<a href="c/val.html"><li>Valentín Barco</li></a>
+		<a href="c/rod.html"><li>Rodrigo De Paul</li></a>
+		<a href="c/gio.html"><li>Giovani Lo Celso</li></a>
+		<a href="c/exeq.html"><li>Exequiel Palacios</li></a>
+		<a href="c/nicol.html"><li>Nicolás González</li></a>
+		<a href="c/alex.html"><li>Alexis Mac Allister</li></a>
+		<a href="c/enzo.html"><li>Enzo Fernández</li></a>
+		 <a href="c/jul.html"><li>Julián Alvarez</li></a>
+		<a href="c/leo.html"><li>Lionel Messi</li></a>
+		<a href="c/thia.html"><li>Thiago Almada</li></a>
+		<a href="c/giu.html"><li>Giuliano Simeone</li></a>
+		<a href="c/Paz.html"><li>Nico Paz</li></a>
+		<a href="c/jose.html"><li>José Manuel López </li></a>
+	<a href="c/lau.html"><li>Lautaro Martínez</li></a>
+
+        
+</ul>
+        </ul>
+    </div>
+
+    <div class="col-9">
+        <h1>FULL ARGENTINA SQAUD</h1>
+
+        <p>
+		Argentina's history spans from indigenous settlements and Spanish colonization to its independence in 1816, followed by waves of European immigration and economic prosperity in the late 19th century. The 20th and 21st centuries were marked by periods of political turmoil, the populist movement of Juan Perón, a brutal military dictatorship (1976–1983), and the subsequent return to democracy.
+        </p>
+
+      
+
+
+        <div class=im>
+            <img src="argen.PNG">
+        </div>
+    </div>
+
+</div>
+
+</body>
+</html>
